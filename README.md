@@ -18,7 +18,7 @@ for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zh
       - Find the minimum expectation of COST, where COST is TIME COST + DROPPING PENALTY.
   - **Method**: CCO(Cross-edge Computation Offloading) algorithm + Sampling-and-classification based edge site-selection algorithm (SES).
   - **Comments & Inspiration**:
-    - Decomposed the problem into two sub-problem: (1) edge site selection (2) evaluate optimized cost of the selection.
+    - The author decomposed the problem into two sub-problem: (1) edge site selection (2) evaluate optimized cost of the selection.
       - (1) SES. Sample-and-classification (SAC) based algo was proposed with the subroutine being restricted as *a binary classification algorithms*. [Common binary classification algorithms](https://towardsdatascience.com/top-10-binary-classification-algorithms-a-beginners-guide-feeacbd7a3e2)
       - (2) Lyapunov function was introduced to formulate the battery level of devices, which is appropriate for devices that are able to harvest energy. Consequently, asymptotic optimal result of a specific selection can be calculated, which makes selections sampled by SAC algorithm evaluable, enabling SES works properly.
 
