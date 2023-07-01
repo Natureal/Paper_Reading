@@ -14,11 +14,14 @@ for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zh
       - (2) battery level >= local exec battery cost + sum of trans battery cost
     - Purpose(a non-convex optimization problem):
       - Find the minimum expectation of COST, where COST is TIME COST + DROPPING PENALTY.
-  - **Method**: CCO(Cross-edge Computation Offloading) algo + Sampling-and-classification based edge site-selection algo
-  - 
+  - **Method**: CCO(Cross-edge Computation Offloading) algorithm + Sampling-and-classification based edge site-selection algorithm (SES).
+  - **Comments & Inspiration**: Decomposed the problem into two sub-problem: (1) edge site selection (2) evaluate optimized cost of the selection.
+    - (1) SES. Sample-and-classification (SAC) based algo was proposed with the subroutine being restricted as *a binary classification algorithms*. [Common binary classification algorithms](https://towardsdatascience.com/top-10-binary-classification-algorithms-a-beginners-guide-feeacbd7a3e2)
+    - (2) Lyapunov function was introduced to formulate the battery level of devices, which is appropriate for devices that are able to harvest energy. Consequently, asymptotic optimal result of a specific selection can be calculated, which makes selections sampled by SAC algorithm evaluable, enabling SES works properly.
 
 ## Optimization Related
 1. CEC '14 [The Sampling-and-Learning Framework: A Statistical View of Evolutionary Algorithms](https://www.researchgate.net/publication/259893738_The_Sampling-and-Learning_Framework_A_Statistical_View_of_Evolutionary_Algorithms#fullTextFileContent)
+  - 
 
 2. AAAI '16 [Derivative-Free Optimization via Classification](https://www.researchgate.net/publication/303487232_Derivative-Free_Optimization_via_Classification)
 
