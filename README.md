@@ -14,7 +14,7 @@ for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zh
       - (2) battery level >= local exec battery cost + sum of trans battery cost
     - Purpose(a non-convex optimization problem):
       - Find the minimum expectation of COST, where COST is TIME COST + DROPPING PENALTY.
-  - **Method**: CCO(Cross-edge Computation Offloading) algorithm.
+  - **Method**: CCO(Cross-edge Computation Offloading) algo + Sampling-and-classification based edge site-selection algo
   - 
 
 ## Optimization Related
