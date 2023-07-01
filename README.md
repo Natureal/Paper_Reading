@@ -30,6 +30,7 @@
 
 
 # Note
+
 ## derivative-free optimization methods list (updating)
   - genetic algorithms (Golberg 1989)
   - randomized local search (Neumann and Wegener 2007)
@@ -37,6 +38,11 @@
   - cross-entropy methods (de Boer 2005)
   - bayesian optimization methods (Brochu, Cora and De Freitas 2010)
   - optimistic optimization methods (Munos 2014)
+
+## Scholars studying MEC, edge-computing, distributed systems
+  - Shuiguang Deng (zju)
+  - Hailiang Zhao (zju)
+  - Zhuzhong Qian (nju)
 
 ## Scholars studying derivative-free optimization
   - Yang Yu (nju)
