@@ -13,8 +13,8 @@
     - comments
     - thinking & inspiration
 
-## MEC Related Papers
-1: ICWS '19 [A Mobility-Aware Cross-edge Computation Offloading Framework
+## I. MEC Related Papers
+### 1: ICWS '19 [A Mobility-Aware Cross-edge Computation Offloading Framework
 for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zhao-4/publication/335464610_A_Mobility-Aware_Cross-Edge_Computation_Offloading_Framework_for_Partitionable_Applications/links/5d7b8a024585155f1e3f2bca/A-Mobility-Aware-Cross-Edge-Computation-Offloading-Framework-for-Partitionable-Applications.pdf)
   - **0. Materials**: [Sides](http://hliangzhao.me/slides/cross_edge.pdf), [Theorical Analysis](http://hliangzhao.me/papers/Theoretical_analysis.pdf), [Lyapunov Optimization Introduction](http://hliangzhao.me/math/Lyapunov_optimization.pdf)
   - **What** is the problem?:
@@ -50,10 +50,7 @@ for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zh
          - (1) Based on Lyapunov optimization, **priori knowledge on mobility** is not necessary to know.
          - (2) By introducing SAC, a high-dimensional non-differentiable problem is reduced to **a binary classification problem**.
 
-2. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
-
-
-3. IEEE Access '18 [Composition-Driven IoT Service Provisioning in Distributed Edges](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
+### 2. IEEE Access '18 [Composition-Driven IoT Service Provisioning in Distributed Edges](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
   - **What** is the problem?
     - **keywords**: MEC, IoT, Service Composition, Service Cache
     - **problem description**: How to establish efficient IoT service provision based on MEC under resource constraints.
@@ -82,17 +79,16 @@ for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zh
       - A proper random-greedy initialization is a key factor for high efficiency.
       - As a kind of evolutionary algorithm, genetic algorithm is efficient for this NP problem.
 
-## Optimization Related Papers
+### 3. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
+
+
+
+## II. Optimization Related Papers
 1. CEC '14 [The Sampling-and-Learning Framework: A Statistical View of Evolutionary Algorithms](https://www.researchgate.net/publication/259893738_The_Sampling-and-Learning_Framework_A_Statistical_View_of_Evolutionary_Algorithms#fullTextFileContent)
 
+2. CEC '16 [On Sampling-and-Classification Optimization in Discrete Domains](https://www.researchgate.net/publication/303487011_On_Sampling-and-Classification_Optimization_in_Discrete_Domains)
 
-2. AAAI '16 [Derivative-Free Optimization via Classification](https://www.researchgate.net/publication/303487232_Derivative-Free_Optimization_via_Classification)
-
-
-
-
-# Summary
-
+3. AAAI '16 [Derivative-Free Optimization via Classification](https://www.researchgate.net/publication/303487232_Derivative-Free_Optimization_via_Classification)
 
 
 # Note
