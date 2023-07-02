@@ -1,5 +1,5 @@
 # Paper_Reading
-- While reading the papers the following points will be summarized:
+- While reading the paper I will try to answer the following questions:
   - **What** is the problem?
     - keywords and problem description
     - relevant previous work
