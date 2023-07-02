@@ -22,9 +22,10 @@ for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zh
     - **problem description**: In the MEC scenario, how to design a computation offloading strategy with the minimum overall cost for partitionable applications.
     - **related work**:
       - (1) [Mobile edge computing(MEC) survey](https://www.researchgate.net/publication/319299183_A_Survey_on_Mobile_Edge_Computing_The_Communication_Perspective)
-      - (2) [](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
+      - (2) Greedily select edge servers according to legitimated bandwidth and computing resources. [QoE Aware and Cell Capacity Enhanced Computation Offloading](https://ieeexplore.ieee.org/document/8560111)
+      - (3) Introduce Lyapunov optimization to decompose a long-term problem into a series of real-time problem.[Follow me at the edge. JSAC '18](https://www.researchgate.net/publication/327688157_Follow_Me_at_the_Edge_Mobility-Aware_Dynamic_Service_Placement_for_Mobile_Edge_Computing)
   - **Why** solve this problem?
-    - 
+    - **significance**: Existing offloading strategies cannot handle the procedure for mobility-aware computation-intensive services.
   - **How** to solve this problem?
     - **formulation**: 
       - These 4 factors are taken into account:
@@ -41,10 +42,13 @@ for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zh
       - Cross-edge Computation Offloading algorithm(CCO)
       - Sampling-and-classification based edge site-selection algorithm(SES).
   - **Why** use this method?
-    - **comments & inspiration**:
+    - **comments**:
       - The author decomposed the problem into two sub-problem: (1) edge site selection (2) evaluate optimized cost of the selection.
         - (1) SES. Sample-and-classification (SAC) based algo was proposed with the subroutine being restricted as *a binary classification algorithms*. [Common binary classification algorithms](https://towardsdatascience.com/top-10-binary-classification-algorithms-a-beginners-guide-feeacbd7a3e2)
         - (2) Lyapunov function was introduced to formulate the battery level of devices, which is appropriate for devices that are able to harvest energy. Consequently, asymptotic optimal result of a specific selection can be calculated, which makes selections sampled by SAC algorithm evaluable, enabling SES works properly.
+    - **inspiring points**:
+         - (1) Based on Lyapunov optimization, **priori knowledge on mobility** is not necessary to know.
+         - (2) By introducing SAC, a high-dimensional non-differentiable problem is reduced to **a binary classification problem**.
 
 2. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
 
