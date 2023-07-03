@@ -68,7 +68,7 @@
         - (4) ASRT(average service reponse time) is used evaluate the cache policy. 
       - **constraints**:
         - (1) Only memory resources are considered as constraints.
-      - **Objective**: (similar to a backpack problem with complexity is 2^n)
+      - **Objective**: (similar to a backpack problem with complexity being 2^n)
         - Design a cache policy that optimizes ASRT by selecting a set of services which are cached at the edge.
     - **method**:
       - (1) A kind of random-greedy initialization algorithm
