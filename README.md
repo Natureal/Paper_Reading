@@ -22,9 +22,9 @@
     - **related work**:
       - (1) [Mobile edge computing(MEC) survey](https://www.researchgate.net/publication/319299183_A_Survey_on_Mobile_Edge_Computing_The_Communication_Perspective)
       - (2) Greedily select edge servers according to legitimated bandwidth and computing resources. [QoE Aware and Cell Capacity Enhanced Computation Offloading](https://ieeexplore.ieee.org/document/8560111)
-      - (3) Introduce Lyapunov optimization to decompose a long-term problem into a series of real-time problem.[Follow me at the edge. JSAC '18](https://www.researchgate.net/publication/327688157_Follow_Me_at_the_Edge_Mobility-Aware_Dynamic_Service_Placement_for_Mobile_Edge_Computing)
+      - (3) Introduce Lyapunov optimization to decompose a long-term problem into a series of real-time problem. [Follow me at the edge. JSAC '18](https://www.researchgate.net/publication/327688157_Follow_Me_at_the_Edge_Mobility-Aware_Dynamic_Service_Placement_for_Mobile_Edge_Computing)
   - **Why** solve this problem?
-    - **significance**: Existing offloading strategies cannot handle the procedure for mobility-aware computation-intensive services.
+    - **significance**: Existing offloading strategies cannot handle the procedure for mobility-aware computation-intensive services, and also do not take cross-edge collaboration into account.
   - **How** to solve this problem?
     - **formulation**: 
       - These 4 factors are taken into account:
@@ -48,6 +48,7 @@
     - **inspiring points**:
          - (1) Based on Lyapunov optimization, **priori knowledge on mobility** is not necessary to know.
          - (2) By introducing SAC, a high-dimensional non-differentiable problem is reduced to **a binary classification problem**.
+         - (3) H. Zhao gave a good introduction of Lyapunov optimization in Chinese which helps me a lot in understanding it. [Lyapunov Optimization Introduction](http://hliangzhao.me/math/Lyapunov_optimization.pdf)
 
 ### 2. IEEE Access '18 [Composition-Driven IoT Service Provisioning in Distributed Edges](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
   - **What** is the problem?
