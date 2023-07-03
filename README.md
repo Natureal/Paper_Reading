@@ -11,7 +11,10 @@
     - methods
   - **Why** use this method?
     - comments
-    - thinking & inspiration
+    - inspiration & new idea
+
+---
+
 
 ## I. MEC Related Papers
 ### 1: ICWS '19 [A Mobility-Aware Cross-edge Computation Offloading Framework for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zhao-4/publication/335464610_A_Mobility-Aware_Cross-Edge_Computation_Offloading_Framework_for_Partitionable_Applications/links/5d7b8a024585155f1e3f2bca/A-Mobility-Aware-Cross-Edge-Computation-Offloading-Framework-for-Partitionable-Applications.pdf)
@@ -45,7 +48,7 @@
       - The author decomposed the problem into two sub-problem: (1) edge site selection (2) evaluate optimized cost of the selection.
         - (1) SES. Sample-and-classification (SAC) based algo was proposed with the subroutine being restricted as *a binary classification algorithms*. [Common binary classification algorithms](https://towardsdatascience.com/top-10-binary-classification-algorithms-a-beginners-guide-feeacbd7a3e2)
         - (2) Lyapunov function was introduced to formulate the battery level of devices, which is appropriate for devices that are able to harvest energy. Consequently, asymptotic optimal result of a specific selection can be calculated, which makes selections sampled by SAC algorithm evaluable, enabling SES works properly.
-    - **inspiring points**:
+    - **inspiration**:
          - (1) Based on Lyapunov optimization, **priori knowledge on mobility** is not necessary to know.
          - (2) By introducing SAC, a high-dimensional non-differentiable problem is reduced to **a binary classification problem**.
          - (3) H. Zhao gave a good introduction of Lyapunov optimization in Chinese which helps me a lot in understanding it. [Lyapunov Optimization Introduction](http://hliangzhao.me/math/Lyapunov_optimization.pdf)
@@ -83,13 +86,33 @@
 
 
 
+---
+
 ## II. Optimization Related Papers
 ### 1. CEC '14 [The Sampling-and-Learning Framework: A Statistical View of Evolutionary Algorithms](https://www.researchgate.net/publication/259893738_The_Sampling-and-Learning_Framework_A_Statistical_View_of_Evolutionary_Algorithms#fullTextFileContent)
+  - **What** is the problem?
+    - **keywords**: Statistical view of EAs(Evolutionary algorithms), Sampling-and-classification(SAC) algorithms, 
+    - **problem description**:
+    - related work
+  - **Why** solve this problem?
+    - significance
+  - **How** to solve this problem?
+    - formulation and modeling
+    - methods
+  - **Why** use this method?
+    - comments
+    - inspiration & new idea
+
 
 ### 2. CEC '16 [On Sampling-and-Classification Optimization in Discrete Domains](https://www.researchgate.net/publication/303487011_On_Sampling-and-Classification_Optimization_in_Discrete_Domains)
 
+
 ### 3. AAAI '16 [Derivative-Free Optimization via Classification](https://www.researchgate.net/publication/303487232_Derivative-Free_Optimization_via_Classification)
 
+
+
+
+---
 
 # Note
 
