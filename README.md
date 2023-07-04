@@ -12,9 +12,9 @@
   - **Why** use this method?
     - comments
     - inspiration & new idea
+    - problem?
 
 ---
-
 
 ## I. MEC Related Papers
 ### 1: ICWS '19 [A Mobility-Aware Cross-edge Computation Offloading Framework for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zhao-4/publication/335464610_A_Mobility-Aware_Cross-Edge_Computation_Offloading_Framework_for_Partitionable_Applications/links/5d7b8a024585155f1e3f2bca/A-Mobility-Aware-Cross-Edge-Computation-Offloading-Framework-for-Partitionable-Applications.pdf)
@@ -52,6 +52,9 @@
          - (1) Based on Lyapunov optimization, **priori knowledge on mobility** is not necessary to know.
          - (2) By introducing SAC, a high-dimensional non-differentiable problem is reduced to **a binary classification problem**.
          - (3) H. Zhao gave a good introduction of Lyapunov optimization in Chinese which helps me a lot in understanding it. [Lyapunov Optimization Introduction](http://hliangzhao.me/math/Lyapunov_optimization.pdf)
+     - **problem?**:
+         - How other simple dynamic-programming based algorithms work on this problem?
+         - Is there any other derivatie-dree optimization algorithm solves the selection problem better?
 
 ### 2. IEEE Access '18 [Composition-Driven IoT Service Provisioning in Distributed Edges](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
   - **What** is the problem?
@@ -81,6 +84,9 @@
     - **comments & inspiration**:
       - A proper random-greedy initialization is a key factor for high efficiency.
       - As a kind of evolutionary algorithm, genetic algorithm is efficient for this NP problem.
+    - **problem?**:
+      - Only memory resources contraint does not seem to be enough.
+      - If more limitations are taken into account, how to do greedy initialization? That is, how to generate initial best solution candidates? 
 
 ### 3. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
 
@@ -89,27 +95,40 @@
 ---
 
 ## II. Optimization Related Papers
-### 1. CEC '14 [The Sampling-and-Learning Framework: A Statistical View of Evolutionary Algorithms](https://www.researchgate.net/publication/259893738_The_Sampling-and-Learning_Framework_A_Statistical_View_of_Evolutionary_Algorithms#fullTextFileContent)
+### 1. AAAI '16 [Derivative-Free Optimization via Classification](https://www.researchgate.net/publication/303487232_Derivative-Free_Optimization_via_Classification)
   - **What** is the problem?
-    - **keywords**: Statistical view of EAs(Evolutionary algorithms), Sampling-and-classification(SAC) algorithms, 
-    - **problem description**:
-    - related work
+    - **keywords**: Derivative-free, Error-target Dependence, Randomized Coordinate Shrinking
+    - **problem description**: The author analysed a range of EAs from the perspective of statistics, and proposed a learning framework which is able to mimic some of EAs.
+    - **related work**:
+      - (1) theorical studies of EAs:
+        - Analyzing Evolutionary Algorithms - T.Jansen et al.
+        - Theory of Randomized Search Heuristics - Foundations and Recent Development - A. Auger et al.
+      - (2) effects of cross-over operators, polulation size, etc:
+        - The analysis of evolutionary algorithms - A proof that crossover really can help - T. Jansen et al.
+        - On the choice of the offspring population size in evolutionary algorithms - T. Jansen et al.
+      - (3) general framework of EAs
+        - Model-based search for combinational optimization: A critical survey - M. Zlochin et al.
   - **Why** solve this problem?
-    - significance
+    - **significance**:
+      - This paper analyzed SAC algorithms in **continuous domains** while other studies mainly focus on discrete domains.
+      - This paper gives lower and upper bound of QAA complexity of a range of EAs with **theorical proofs**.
   - **How** to solve this problem?
-    - formulation and modeling
-    - methods
+    - **formulation**:
+      - **terms**:
+        - (1) hamming distance: the number of differences of two vector or two strings.
+        - (2) probable-absolute-approximate(PAA) query complexity: the number of calls to f(.) such that, with probability at leat 1-P to find a solution x with f(x) < a.
+        - (3) sphere function class & spike function class(non-convex, non-differentiable)
+    - **methods**:
+      - (1) The sampling-and-learning(SAL) is an abstract summary of a range of EAs.
+      - (2) In the SAL framework, learning a hypothesis h_(t) allows to take the current data set, the last data set and the last hypothesis h_(t-1) into account.
   - **Why** use this method?
-    - comments
-    - inspiration & new idea
+    - **inspiration**:
+      - (1）SAL looks an interesting algorithm in simulating PSO algorithm. Sampling from **positive region and global region** from the lastest hypothesis is similar to PSO in which velocity of each particle will be updated both **globally** and **personlally**.
+      - (2) "An accurate learning algorithm may not be necessary for a good SAC algorithm." Let's learn more from [On the complexity of trial and error](https://www.researchgate.net/publication/224907207_On_the_Complexity_of_Trial_and_Error)
 
+### 2. CEC '14 [The Sampling-and-Learning Framework: A Statistical View of Evolutionary Algorithms](https://www.researchgate.net/publication/259893738_The_Sampling-and-Learning_Framework_A_Statistical_View_of_Evolutionary_Algorithms#fullTextFileContent)
 
-### 2. CEC '16 [On Sampling-and-Classification Optimization in Discrete Domains](https://www.researchgate.net/publication/303487011_On_Sampling-and-Classification_Optimization_in_Discrete_Domains)
-
-
-### 3. AAAI '16 [Derivative-Free Optimization via Classification](https://www.researchgate.net/publication/303487232_Derivative-Free_Optimization_via_Classification)
-
-
+### 3. CEC '16 [On Sampling-and-Classification Optimization in Discrete Domains](https://www.researchgate.net/publication/303487011_On_Sampling-and-Classification_Optimization_in_Discrete_Domains)
 
 
 ---
