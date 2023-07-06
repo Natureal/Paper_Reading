@@ -1,8 +1,8 @@
 # Paper_Reading
 - While reading the paper I will try to answer the following questions:
   - **What** is the problem?
-    - keywords
-    - problem description
+    - the *novelty* of this paper
+    - keywords & problem description
     - related work
   - **Why** solve this problem?
     - significance
@@ -14,13 +14,19 @@
     - inspiration & new idea
     - problem?
 
+- Current Reading Stats
+  - Mobile Edge Computing: 1
+  - Service Provisioning: 1
+  - Optimization Theory
+    - EAs / Derivative-free optimization: 2
 ---
 
 ## I. MEC Related Papers
 ### 1: ICWS '19 [A Mobility-Aware Cross-edge Computation Offloading Framework for Partitionable Applications](https://www.researchgate.net/profile/Hailiang-Zhao-4/publication/335464610_A_Mobility-Aware_Cross-Edge_Computation_Offloading_Framework_for_Partitionable_Applications/links/5d7b8a024585155f1e3f2bca/A-Mobility-Aware-Cross-Edge-Computation-Offloading-Framework-for-Partitionable-Applications.pdf)
   - **0. Materials**: [Sides](http://hliangzhao.me/slides/cross_edge.pdf), [Theorical Analysis](http://hliangzhao.me/papers/Theoretical_analysis.pdf), [Lyapunov Optimization Introduction](http://hliangzhao.me/math/Lyapunov_optimization.pdf)
   - **What** is the problem?:
-    - **keywords**: MEC, Computation Offloading, Cross-edge Collaboration , Lyapunov Optimization
+    - **novelty**: modeling method and the algo framework
+    - **keywords**: MEC, Computation Offloading, Cross-edge Collaboration
     - **problem description**: In the MEC scenario, how to design a computation offloading strategy with the minimum overall cost for partitionable applications.
     - **related work**:
       - (1) [Mobile edge computing(MEC) survey](https://www.researchgate.net/publication/319299183_A_Survey_on_Mobile_Edge_Computing_The_Communication_Perspective)
@@ -58,7 +64,8 @@
 
 ### 2. IEEE Access '18 [Composition-Driven IoT Service Provisioning in Distributed Edges](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
   - **What** is the problem?
-    - **keywords**: MEC, IoT, Service Composition, Service Cache
+    - **novelty**: an algorithm framework better than simple EAs
+    - **keywords**: IoT, Service Composition, Service Cache
     - **problem description**: How to establish efficient IoT service provision based on MEC under resource constraints.
     - **related work**:
       - (1) IoT MEC frameworks
@@ -88,7 +95,39 @@
       - Only memory resources contraint does not seem to be enough.
       - If more limitations are taken into account, how to do greedy initialization? That is, how to generate initial best solution candidates? 
 
-### 3. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
+### 3. TPDS '22 [Dependent Function Embedding for Distributed Serverless Edge Computing](https://dsg.tuwien.ac.at/team/sd/papers/Zeitschriftenartikel_2022_SD_Dependent.pdf)
+  - **What** is the problem?
+    - **novelty**:
+      - takes *proactive traffic routing* and *data splitting* into consideration.
+      - A DP algorithm is proposed to this optimization problem.
+    - **keywords**: Edge computing, Dependent Function Embedding, Task Scheduling
+    - **problem description**: In the scenario of FaaS, how to design an algorithm framework to optimize makespan of serverless edge computing.
+    - **related work**:
+      - inter-task dependency & resource-constrained scheduling
+        - Serverless architecture for edge computing - B. Javadi et al.
+      - optimal function placement
+        - Dependent task placement and scheduling with function configuration in edge computing - L. Liu et al.
+      - other related algorithms
+        - *FixDoc*: Dependent task placement and scheduling with function configuration in edge computing - L. Liu et al.
+        - *HEFT*: Performance-effective and low-complexity task scheduling for heterogeneous computing - H. Topcuoglu et al.
+  - **Why** solve this problem?
+    - **significance**: Optimize the performance of edge computing, especially for FaaS.
+  - **How** to solve this problem?
+    - **formulation**
+      - heterogeneous edge network -> UCG(undirected connected graph）
+      - IoT dependent functions -> DAGs
+      - function placement and stream mapping -> function embedding
+    - **methods**
+      - DP-based Embedding
+        - 
+  - **Why** use this method?
+    - **comments**
+    - **inspiration**
+    - **problem?**
+  
+
+### 4. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
+
 
 
 
@@ -97,6 +136,7 @@
 ## II. Optimization Related Papers
 ### 1. AAAI '16 [Derivative-Free Optimization via Classification](https://www.researchgate.net/publication/303487232_Derivative-Free_Optimization_via_Classification)
   - **What** is the problem?
+    - **novelty**: continuous domains research of SAC algo
     - **keywords**: Derivative-free, Error-target Dependence, Randomized Coordinate Shrinking
     - **problem description**: The author analysed a range of EAs from the perspective of statistics, and proposed a learning framework which is able to mimic some of EAs.
     - **related work**:
