@@ -15,8 +15,10 @@
     - problem?
 
 - Current Reading Stats
-  - Mobile Edge Computing: 1
-  - Service Provisioning: 1
+  - Edge Computing
+    - Mobile Edge Computing: 1
+    - Service Provisioning: 1
+    - Serverless Computing: 1  
   - Optimization Theory
     - EAs / Derivative-free optimization: 2
 ---
@@ -62,7 +64,37 @@
          - How other simple dynamic-programming based algorithms work on this problem?
          - Is there any other derivatie-dree optimization algorithm solves the selection problem better?
 
-### 2. IEEE Access '18 [Composition-Driven IoT Service Provisioning in Distributed Edges](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
+### 2. TPDS '22 [Dependent Function Embedding for Distributed Serverless Edge Computing](https://dsg.tuwien.ac.at/team/sd/papers/Zeitschriftenartikel_2022_SD_Dependent.pdf)
+  - **What** is the problem?
+    - **novelty**:
+      - takes *proactive traffic routing* and *data splitting* into consideration.
+      - A DP algorithm is proposed to this optimization problem.
+    - **keywords**: Edge computing, Dependent Function Embedding, Task Scheduling
+    - **problem description**: In the scenario of FaaS, how to design an algorithm framework to optimize makespan of serverless edge computing.
+    - **related work**:
+      - inter-task dependency & resource-constrained scheduling
+        - Serverless architecture for edge computing - B. Javadi et al.
+      - optimal function placement
+        - Dependent task placement and scheduling with function configuration in edge computing - L. Liu et al.
+      - other related algorithms
+        - *FixDoc*: Dependent task placement and scheduling with function configuration in edge computing - L. Liu et al.
+        - *HEFT*: Performance-effective and low-complexity task scheduling for heterogeneous computing - H. Topcuoglu et al.
+  - **Why** solve this problem?
+    - **significance**: Optimize the performance of edge computing, especially for FaaS.
+  - **How** to solve this problem?
+    - **formulation**
+      - heterogeneous edge network -> UCG(undirected connected graph）
+      - IoT dependent functions -> DAGs
+      - function placement and stream mapping -> function embedding
+    - **methods**
+      - DP-based Embedding
+        - 
+  - **Why** use this method?
+    - **comments**
+    - **inspiration**
+    - **problem?**
+   
+### 3. IEEE Access '18 [Composition-Driven IoT Service Provisioning in Distributed Edges](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
   - **What** is the problem?
     - **novelty**: an algorithm framework better than simple EAs
     - **keywords**: IoT, Service Composition, Service Cache
@@ -95,35 +127,6 @@
       - Only memory resources contraint does not seem to be enough.
       - If more limitations are taken into account, how to do greedy initialization? That is, how to generate initial best solution candidates? 
 
-### 3. TPDS '22 [Dependent Function Embedding for Distributed Serverless Edge Computing](https://dsg.tuwien.ac.at/team/sd/papers/Zeitschriftenartikel_2022_SD_Dependent.pdf)
-  - **What** is the problem?
-    - **novelty**:
-      - takes *proactive traffic routing* and *data splitting* into consideration.
-      - A DP algorithm is proposed to this optimization problem.
-    - **keywords**: Edge computing, Dependent Function Embedding, Task Scheduling
-    - **problem description**: In the scenario of FaaS, how to design an algorithm framework to optimize makespan of serverless edge computing.
-    - **related work**:
-      - inter-task dependency & resource-constrained scheduling
-        - Serverless architecture for edge computing - B. Javadi et al.
-      - optimal function placement
-        - Dependent task placement and scheduling with function configuration in edge computing - L. Liu et al.
-      - other related algorithms
-        - *FixDoc*: Dependent task placement and scheduling with function configuration in edge computing - L. Liu et al.
-        - *HEFT*: Performance-effective and low-complexity task scheduling for heterogeneous computing - H. Topcuoglu et al.
-  - **Why** solve this problem?
-    - **significance**: Optimize the performance of edge computing, especially for FaaS.
-  - **How** to solve this problem?
-    - **formulation**
-      - heterogeneous edge network -> UCG(undirected connected graph）
-      - IoT dependent functions -> DAGs
-      - function placement and stream mapping -> function embedding
-    - **methods**
-      - DP-based Embedding
-        - 
-  - **Why** use this method?
-    - **comments**
-    - **inspiration**
-    - **problem?**
   
 
 ### 4. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
