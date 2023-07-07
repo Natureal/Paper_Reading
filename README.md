@@ -14,8 +14,7 @@
     - inspiration & new idea
     - problem?
 
----
-- Current Reading Stats
+- **Current Reading Stats**
   - Edge Computing
     - Mobile Edge Computing: 1
     - Service Provisioning: 1
