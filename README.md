@@ -1,7 +1,7 @@
 # Paper_Reading
 - While reading the paper I will try to answer the following questions:
   - **What** is the problem?
-    - the *novelty* of this paper
+    - the **novelty** of this paper
     - keywords & problem description
     - related work
   - **Why** solve this problem?
@@ -14,6 +14,7 @@
     - inspiration & new idea
     - problem?
 
+---
 - Current Reading Stats
   - Edge Computing
     - Mobile Edge Computing: 1
@@ -86,13 +87,19 @@
       - heterogeneous edge network -> UCG(undirected connected graph）
       - IoT dependent functions -> DAGs
       - function placement and stream mapping -> function embedding
+      - **objective**:
+        - minimize the finish time of the slowest exit function
     - **methods**
       - DP-based Embedding
-        - 
+        - optimal substructure: Based on connected edges, if our objectives is to find the optimal solution of node A, we can firstly find the optimal solution of node B that connected to A. That is to say, optimal substructure appears in topological order.
+        - optimal data splitting: infinity norm minimization problem, which can be solved by simplex method or interior point method. But a better solution(OSM) is proposed to find the optimal objective value directly by introducing AM-GM inequality.
+        - path finding: recursive searching.
   - **Why** use this method?
     - **comments**
+      - Based on observation, a more efficient calculation is proposed to solve the data spliiting problem rather than use traditional optimization methods.
     - **inspiration**
-    - **problem?**
+      - By careful observation, some concise/novel optimal method could be found to solve some specific problems rather than using traditional methods.
+      - Actually, optimal sub-problems are obvious to find in this scenario of topological edge network, but formulation and modeling methods are worth learning.
    
 ### 3. IEEE Access '18 [Composition-Driven IoT Service Provisioning in Distributed Edges](https://www.researchgate.net/publication/327787725_Composition-Driven_IoT_Service_Provisioning_in_Distributed_Edges)
   - **What** is the problem?
