@@ -69,7 +69,7 @@
   - **What** is the problem?
     - **novelty**:
       - takes *proactive traffic routing* and *data splitting* into consideration.
-      - A DP algorithm is proposed to this optimization problem.
+      - A DP-based algorithm is proposed to this optimization problem, and an optimal so
     - **keywords**: Edge computing, Dependent Function Embedding, Task Scheduling
     - **problem description**: In the scenario of FaaS, how to design an algorithm framework to optimize makespan of serverless edge computing.
     - **related work**:
@@ -132,9 +132,9 @@
       - As a kind of evolutionary algorithm, genetic algorithm is efficient for this NP problem.
     - **problem?**:
       - Only memory resources contraint does not seem to be enough.
-      - If more limitations are taken into account, how to do greedy initialization? That is, how to generate initial best solution candidates? 
+      - If more limitations are taken into account, how to do greedy initialization? That is, how to generate initial best solution candidates?
 
-  
+
 
 ### 4. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
 
@@ -192,7 +192,7 @@
   - bayesian optimization methods (Brochu, Cora and De Freitas 2010)
   - optimistic optimization methods (Munos 2014)
 
-## Scholars studying MEC, edge-computing, distributed systems
+## Scholars studying MEC, edge-computing, serverless, computing, distributed systems
   - Shuiguang Deng (zju)
   - Hailiang Zhao (zju)
   - Zhuzhong Qian (nju)
