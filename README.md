@@ -135,27 +135,58 @@
 
 
 ### 4. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
+  - A low-complexity sub-optimal algorithm is proposed by transforming the OFDMA problem to its TDMA counterpart.
 
-### 5. TPDS '23 Learning to Schedule Multi-Server Jobs With Fluctuated Processing Speeds
+### 5. TPDS '23 [Learning to Schedule Multi-Server Jobs With Fluctuated Processing Speeds](https://ieeexplore.ieee.org/document/9925644)
+  - Proposes Esdp (Efficient Sampling-based Dynamic Programming), which learns the distribution of the fluctuated processing speeds over time and simultaneously seeks to maximize the cumulative overall utility.
+  - Related Problem: Most of online algorithms require the processing speeds to be knowable, thereby the job completion times can be exactly calculated.
 
-### 6. TSC '23 CTL-Based Adaptive Service Composition in Edge Networks
+### 6. TSC '23 [CTL-Based Adaptive Service Composition in Edge Networks](https://ieeexplore.ieee.org/document/9799731)
+  - To guarantee the compatibility of compositions with QoS variations, an adaptive composition mechanism leveraging Computation Tree Logic(CTL) specifications is proposed.
 
-### 7. TMC '23 Incentive-Driven Proactive Application Deployment and Pricing on Distributed Edges
+### 7. TMC '21 [Incentive-Driven Proactive Application Deployment and Pricing on Distributed Edges](https://ieeexplore.ieee.org/document/9484822)
+  - SELL lets edge servers compete with each other in a two-stage Stackelberg game to win deployment rights, and the winners get paid for their deployment efforts.
 
-### 8. ICWS '22 Online Pricing-based Content Cache Trading for Multi-Provider Vehicular Networks
+### 8. ICWS '22 [Online Pricing-based Content Cache Trading for Multi-Provider Vehicular Networks](https://ieeexplore.ieee.org/document/9885756)
+  - Proposes a general cache valuation and online pricing framework to realize incentive compatibility, individual rationality, privacy protection and computational efficiency with the target of social welfare maximization.
+  - Key problem: Vehicular caching trading policy between MNO and content providers (CPs) arriving in unknown sequence still remains complicated to design since selfish and private CPs may be vicious to contend for limited vehicular capacity to obtain larger profits.
 
-### 9. TPDS '22 Mobility-Aware Offloading and Resource Allocation for Distributed Services Collaboration
+### 9. TPDS '22 [Mobility-Aware Offloading and Resource Allocation for Distributed Services Collaboration](https://www.computer.org/csdl/journal/td/2022/10/09681614/1A8cpMuOn8A)
+  - The service collaboration with master-slave dependency among service chains of MUs and formulate this combinational optimization problem as a mixed integer non-linear programming (MINLP) problem.
+  - Key insights: Most of previous works ignore the impact of inter-user dependency (or data dependency among IoT devices).
 
-### 10. TPDS '22 Dependent Function Embedding for Distributed Serverless Edge Computing
+### 10. TPDS '22 [Dependent Function Embedding for Distributed Serverless Edge Computing](https://ieeexplore.ieee.org/document/9665233)
+  - An algorithm, termed as Dependent Function Embedding (DPE), to get the optimal edge server for each function to execute and the moment it starts executing.
+  - Key insights: DPE finds the best segmentation of each data traffic by exquisitely solving several infinity norm minimization problems.
 
-### 11. TMC '22 DPoS: Decentralized, Privacy-Preserving, and Low-Complexity Online Slicing for Multi-Tenant Networks
+### 11. TMC '22 [DPoS: Decentralized, Privacy-Preserving, and Low-Complexity Online Slicing for Multi-Tenant Networks](https://ieeexplore.ieee.org/document/9411731)
+  - A fully decentralized and low-complexity online algorithm, DPoS, for multi-resource slicing.
+  - Method: DPoS based on Primal-dual approach.
 
-### 12. TSC '22 Distributed Redundant Placement for Microservice-based Applications at the Edge
+### 12. TSC '22 [Distributed Redundant Placement for Microservice-based Applications at the Edge](https://ieeexplore.ieee.org/abstract/document/9154603)
+  - High availability cannot be ensured due to heterogeneity and variability of edge sites. A distributed redundant placement framework SAA-RP and a GA-based Server Selection (GASS) algorithm are proposed for microservice-based applications with sequential combinatorial structure.
+  - Formulation: Stochastic optimization problem.
 
-### 13. ICWS '21 Incentive-driven Edge Cooperation for Service Provision
+### 13. ICWS '21 [Incentive-driven Edge Cooperation for Service Provision](https://ieeexplore.ieee.org/document/9590301)
+  - A novel privacy-preserving incentive mechanism (PIM) for edge co-operation at a fully distributed edge.
+  - key insights:
 
-### 14. SIGKDD '23 FedAPEN: Personalized Cross-silo Federated Learning with Adaptability to Statistical Heterogeneity
+### 14. SIGKDD '23 FedAPEN: [Personalized Cross-silo Federated Learning with Adaptability to Statistical Heterogeneity](https://dl.acm.org/doi/abs/10.1145/3580305.3599344)
+  - A novel FL framework, which combines mutual learning and ensemble learning to take the advantages of private and shared global models while allowing heterogeneous models.
+  - key insights:
 
+### 15. arXiv [Ensuring Fairness in Edge Networks: A GNN-Based Media Workload Migration Scheme With Fairness Guarantee](https://ieeexplore.ieee.org/document/10197635)
+  - A resource allocation algorithm based on GNN by allocating computing and bandwidth resources fairly for video streaming requests.
+  - key insights:
+
+### 16. arXiv [Cloud-Native Computing: A Survey from the Perspective of Services](https://www.techrxiv.org/articles/preprint/Cloud-Native_Computing_A_Survey_from_the_Perspective_of_Services/23500383)
+  - A research roadmap of cloud-native computing.
+  - ![image](https://github.com/Natureal/Paper_Reading/assets/7850087/27852c5b-3d7a-44c1-9be9-acf1f3d8bc0f)
+
+### 17. JoS [APU: Method to Estimate Computing Power Consumption of Hyper-threading Processors](https://www.jos.org.cn/josen/article/abstract/6779)
+  - A method proposed to estimate the computing power consumption for HT processors.
+  - key insights:
+    
 ---
 
 ## II. Optimization Related Papers
