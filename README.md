@@ -1,5 +1,5 @@
 # Paper_Reading
-- While reading the paper I will try to answer the following questions:
+- While reading the paper I will try to answer some of the following questions:
   - **What** is the problem?
     - the **novelty** of this paper
     - keywords & problem description
@@ -10,9 +10,8 @@
     - formulation and modeling
     - methods
   - **Why** use this method?
-    - comments
-    - inspiration & new idea
-    - problem?
+    - key insights
+    - possible improvement or future work
 
 - **Current Reading Stats**
   - Edge Computing
@@ -137,8 +136,25 @@
 
 ### 4. IEEE Trans. Wirel. Commun '17 [Energy-Efficient Resource Allocation for Mobile-Edge Computation Offloading](https://ieeexplore.ieee.org/document/7762913)
 
+### 5. TPDS '23 Learning to Schedule Multi-Server Jobs With Fluctuated Processing Speeds
 
+### 6. TSC '23 CTL-Based Adaptive Service Composition in Edge Networks
 
+### 7. TMC '23 Incentive-Driven Proactive Application Deployment and Pricing on Distributed Edges
+
+### 8. ICWS '22 Online Pricing-based Content Cache Trading for Multi-Provider Vehicular Networks
+
+### 9. TPDS '22 Mobility-Aware Offloading and Resource Allocation for Distributed Services Collaboration
+
+### 10. TPDS '22 Dependent Function Embedding for Distributed Serverless Edge Computing
+
+### 11. TMC '22 DPoS: Decentralized, Privacy-Preserving, and Low-Complexity Online Slicing for Multi-Tenant Networks
+
+### 12. TSC '22 Distributed Redundant Placement for Microservice-based Applications at the Edge
+
+### 13. ICWS '21 Incentive-driven Edge Cooperation for Service Provision
+
+### 14. SIGKDD '23 FedAPEN: Personalized Cross-silo Federated Learning with Adaptability to Statistical Heterogeneity
 
 ---
 
