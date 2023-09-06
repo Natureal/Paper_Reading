@@ -179,6 +179,35 @@
 
 ### 3. CEC '16 [On Sampling-and-Classification Optimization in Discrete Domains](https://www.researchgate.net/publication/303487011_On_Sampling-and-Classification_Optimization_in_Discrete_Domains)
 
+
+---
+
+## III. ML Systems Related Papers
+### 1. [Transparent GPU Sharing in Container Clouds for Deep Learning Workloads](https://www.usenix.org/system/files/nsdi23-wu.pdf) - Wu et al. PKU
+  - **What** is the problem?
+    - **novelty**: Usage of CUDA unified memory, 
+    - **keywords**: GPU sharing, DL training framework, Container Clouds.
+    - **related work**:
+      - AntMan: Cons: No transparency.
+      - Salus: Cons: No transparency, No fault isolation.
+      - MPS: Con: Low utilization, No fault isolation.
+      - PipeSwitch: Cons: No transparency, Low utilization.
+      - MPS: Cons: Low utilization, No fault isolation.
+      - MIG: Cons: Low utilization.
+  - **Why** solve this problem?
+    - significance
+  - **How** to solve this problem?
+    - formulation and modeling
+    - methods
+  - **Why** use this method?
+    - comments
+    - inspiration & new idea
+    - problem?
+
+
+### 2. 
+
+
 ---
 
 # Note
