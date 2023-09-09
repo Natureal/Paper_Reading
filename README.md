@@ -186,7 +186,7 @@
 ### 17. JoS [APU: Method to Estimate Computing Power Consumption of Hyper-threading Processors](https://www.jos.org.cn/josen/article/abstract/6779)
   - A method proposed to estimate the computing power consumption for HT processors.
   - key insights:
-    
+
 ---
 
 ## II. Optimization Related Papers
@@ -226,10 +226,16 @@
 
 ### 3. CEC '16 [On Sampling-and-Classification Optimization in Discrete Domains](https://www.researchgate.net/publication/303487011_On_Sampling-and-Classification_Optimization_in_Discrete_Domains)
 
+---
+
+## III. Time Series Prediction
+### 1. [PePNet: A Periodicity-Perceived Workload Prediction Network Supporting Rare Occurrence of Heavy Workload](https://arxiv.org/pdf/2308.01917.pdf)
+  - 
+
 
 ---
 
-## III. ML Systems Related Papers
+## IV. ML Systems Related Papers
 ### 1. [Transparent GPU Sharing in Container Clouds for Deep Learning Workloads](https://www.usenix.org/system/files/nsdi23-wu.pdf) - Wu et al. PKU
   - **What** is the problem?
     - **novelty**: Usage of CUDA unified memory, 
