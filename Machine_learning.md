@@ -9,6 +9,12 @@ rnn encoder-decoder for statistical machine translation
 
 ---
 
+## II. Loss Function
+
+### https://arxiv.org/pdf/1909.09020.pdf
+
+---
+
 # Time Series Data Processing
 
 ---
