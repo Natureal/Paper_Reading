@@ -187,6 +187,8 @@
   - A method proposed to estimate the computing power consumption for HT processors.
   - key insights:
 
+### 18. [Markov Approximation for Combinatorial Network Optimization](https://www.researchgate.net/publication/224136963_Markov_Approximation_for_Combinatorial_Network_Optimization#fullTextFileContent)
+
 ---
 
 ## II. Optimization Related Papers
