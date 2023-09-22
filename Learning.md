@@ -6,5 +6,5 @@ https://www.cnblogs.com/zhxuxu/p/10492578.html
 
 ### Distribution
 - Beta Distribution: https://www.youtube.com/watch?v=juF3r12nM5A
-  - ![image](https://github.com/Natureal/Paper_Reading/assets/7850087/27075b9a-afb6-4bda-8030-97483f28fbf4 =100x20)
+  - <img src="[Assets/icon.png](https://github.com/Natureal/Paper_Reading/assets/7850087/27075b9a-afb6-4bda-8030-97483f28fbf4)https://github.com/Natureal/Paper_Reading/assets/7850087/27075b9a-afb6-4bda-8030-97483f28fbf4" width="200">
 
