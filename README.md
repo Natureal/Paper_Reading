@@ -63,7 +63,7 @@
          - How other simple dynamic-programming based algorithms work on this problem?
          - Is there any other derivatie-dree optimization algorithm solves the selection problem better?
 
-### 2. TPDS '22 [Dependent Function Embedding for Distributed Serverless Edge Computing](https://dsg.tuwien.ac.at/team/sd/papers/Zeitschriftenartikel_2022_SD_Dependent.pdf)
+### 2. TPDS '21 [Dependent Function Embedding for Distributed Serverless Edge Computing](https://dsg.tuwien.ac.at/team/sd/papers/Zeitschriftenartikel_2022_SD_Dependent.pdf)
   - **What** is the problem?
     - **novelty**:
       - takes *proactive traffic routing* and *data splitting* into consideration.
@@ -94,7 +94,7 @@
         - path finding: recursive searching.
   - **Why** use this method?
     - **comments**
-      - Based on observation, a more efficient calculation is proposed to solve the data spliiting problem rather than use traditional optimization methods.
+      - Based on observation, a more efficient calculation is proposed to solve the data splitting problem rather than use traditional optimization methods.
     - **inspiration**
       - By careful observation, some concise/novel optimal method could be found to solve some specific problems rather than using traditional methods.
       - Actually, optimal sub-problems are obvious to find in this scenario of topological edge network, but formulation and modeling methods are worth learning.
@@ -138,8 +138,9 @@
   - A low-complexity sub-optimal algorithm is proposed by transforming the OFDMA problem to its TDMA counterpart.
 
 ### 5. TPDS '23 [Learning to Schedule Multi-Server Jobs With Fluctuated Processing Speeds](https://ieeexplore.ieee.org/document/9925644)
-  - Proposes Esdp (Efficient Sampling-based Dynamic Programming), which learns the distribution of the fluctuated processing speeds over time and simultaneously seeks to maximize the cumulative overall utility.
+  - What: Proposes Esdp (Efficient Sampling-based Dynamic Programming), which learns the distribution of the fluctuated processing speeds over time and simultaneously seeks to maximize the cumulative overall utility.
   - Related Problem: Most of online algorithms require the processing speeds to be knowable, thereby the job completion times can be exactly calculated.
+  - 
 
 ### 6. TSC '23 [CTL-Based Adaptive Service Composition in Edge Networks](https://ieeexplore.ieee.org/document/9799731)
   - To guarantee the compatibility of compositions with QoS variations, an adaptive composition mechanism leveraging Computation Tree Logic(CTL) specifications is proposed.
@@ -227,6 +228,10 @@
 ### 2. CEC '14 [The Sampling-and-Learning Framework: A Statistical View of Evolutionary Algorithms](https://www.researchgate.net/publication/259893738_The_Sampling-and-Learning_Framework_A_Statistical_View_of_Evolutionary_Algorithms#fullTextFileContent)
 
 ### 3. CEC '16 [On Sampling-and-Classification Optimization in Discrete Domains](https://www.researchgate.net/publication/303487011_On_Sampling-and-Classification_Optimization_in_Discrete_Domains)
+
+### 4. ACM SIGMETRICS '21 [Statistically efficient, polynomial-time algorithms for combinatorial semi-bandits](https://www.google.com.tw/search?q=Statistically+efficient%2C%0D%0Apolynomial-time+algorithms+for+combinatorial+semi-bandits&newwindow=1&sca_esv=568007022&hl=zh_TW&sxsrf=AM9HkKkG8FM8ptuK42wLCEVMf_yvOT81HA%3A1695564100990&source=hp&ei=REEQZbyxOIOJ-QaIm5CgCg&iflsig=AO6bgOgAAAAAZRBPVHAYuP69pvowshR8e43t-UJKYRGa&ved=0ahUKEwi847e_tMOBAxWDRN4KHYgNBKQQ4dUDCAk&uact=5&oq=Statistically+efficient%2C%0D%0Apolynomial-time+algorithms+for+combinatorial+semi-bandits&gs_lp=Egdnd3Mtd2l6IlJTdGF0aXN0aWNhbGx5IGVmZmljaWVudCwKcG9seW5vbWlhbC10aW1lIGFsZ29yaXRobXMgZm9yIGNvbWJpbmF0b3JpYWwgc2VtaS1iYW5kaXRzSABQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAvgBAQ&sclient=gws-wiz#fpstate=ive&vld=cid:b876639f,vid:6HZSSV5eVy8,st:0)
+
+
 
 ---
 
