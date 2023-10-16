@@ -3,3 +3,4 @@
 3. Go deep into the proof of SAC
 4. Have a look at Brain-inspired Computing
 5. Reading Follow me at the edge. JSAC '18
+6. learn Welford’s online algorithm
